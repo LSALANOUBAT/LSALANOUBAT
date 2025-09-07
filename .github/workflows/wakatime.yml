@@ -9,9 +9,6 @@ jobs:
   update-readme:
     name: Update README with WakaTime Stats
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -26,3 +23,6 @@ jobs:
           SHOW_TIMEZONE: "False"
           SHOW_LANGUAGE: "True"
           SHOW_EDITORS: "True"
+          SHOW_LANGUAGE_PER_REPO: "False"
+          SHOW_LOC_CHART: "False"
+          SHOW_SHORT_INFO: "False"

@@ -1,4 +1,4 @@
-## 📊 Mes statistiques de codage
+## 📊 Mes statistiques
 
 <!--START_SECTION:waka-->
 
